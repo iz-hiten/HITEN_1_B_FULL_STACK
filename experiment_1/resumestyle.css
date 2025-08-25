@@ -1,0 +1,19 @@
+body {
+    margin: 20px;
+    min-height: 100vh;
+}
+
+@media print {
+    body {
+        margin: 0;
+    }
+    
+    .shadow-2xl,
+    .shadow-lg {
+        box-shadow: none !important;
+    }
+    
+    .bg-gradient-to-r {
+        background: #528ec2 !important;
+    }
+}
