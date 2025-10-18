@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard with CSS Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="dashboard" data-theme="light">
+    <aside class="sidebar">
+      <h2>Admin Menu</h2>
+      <ul>
+        <li>Overview</li>
+        <li>Analytics</li>
+        <li>Users</li>
+        <li>Settings</li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <h1>Dashboard</h1>
+
+      <div class="grid-cards">
+        <div class="card">Total Users</div>
+        <div class="card">Revenue</div>
+        <div class="card">Performance</div>
+        <div class="card">Server Status</div>
+      </div>
+
+      <button id="theme-toggle">Toggle Theme</button>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
