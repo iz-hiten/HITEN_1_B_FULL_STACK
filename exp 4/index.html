@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 4 - Interactive SVG Drawing Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>🎨 Experiment 4: Interactive SVG Drawing Tool</h2>
+  
+  <svg id="canvas" width="600" height="400"></svg>
+
+  <div class="controls">
+    <label for="colorPicker">Choose Color:</label>
+    <input type="color" id="colorPicker" value="#007bff">
+    <button onclick="undo()">Undo</button>
+    <button onclick="clearCanvas()">Clear All</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
